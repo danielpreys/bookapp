@@ -16,7 +16,7 @@ $("#search-btn").click(function(){
 
       	
       	for (var i = 0; i<=data.items.length; i++){
-        $("#results").append('<h2>' + "Title: " + data["items"][i]["volumeInfo"]["title"] + '</h2>');
+        $("#results").append('<h2>' + data["items"][i]["volumeInfo"]["title"] + '</h2>');
         $("#results").append('<img src' + '=' + data["items"][i]["volumeInfo"]["imageLinks"]["thumbnail"] + '>');
         $("#results").append('<p>' + "Author: " + data["items"][i]["volumeInfo"]["authors"] + '</p>');
         $("#results").append('<p>' + "Publisher: " + data["items"][i]["volumeInfo"]["publisher"] + '</p>');
