@@ -9,18 +9,23 @@
 img {
 	
 	padding-top: 30px;
-	
+	padding-bottom: 20px;
 	padding-left: 10px;
 }
 
 li {
 	list-style-type: none;
+	text-align: center;
 }
 
 #books {
-	background-color: grey;
+	background-color: #e0e0eb;
 	margin-top: 20px;
 	margin-right: 20px;
-	padding-right: 50px;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 20px;
 }
 
